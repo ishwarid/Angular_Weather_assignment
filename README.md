@@ -1,6 +1,7 @@
 # KisanHubProject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+I made this project for an assignment on angular 4.
+The project is hosted at https://kisanhub-angular-assignment.firebaseapp.com/   using firebase hosting.
 
 ## Development server
 
