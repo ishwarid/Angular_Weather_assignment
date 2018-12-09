@@ -1,0 +1,102 @@
+.holderDivTop {
+    padding: 10px;
+    color: #4d585f;
+    background-color: white;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -webkit-transition: opacity 0.25s ease-out;
+    -moz-transition: opacity 0.25s ease-out;
+    transition: opacity 0.25s ease-out;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .boxs-header {
+    color: rgb(77, 88, 95);
+    font-size: 15px;
+  }
+  
+  .boxs-header>h3>strong {
+    color: #B8E149;
+  }
+  
+  .boxs-header::before {
+    float: left;
+    position: relative;
+    left: -10px;
+    content: " ";
+    background-color: #B8E149;
+    width: 5px;
+    height: 35px;
+    display: block;
+    box-sizing: border-box;
+  }  
+ 
+  .holderDiv {
+    margin-top: 10px;
+    padding: 10px;
+    height: calc(100% - 10px);
+    color: #4d585f;
+    background-color: #fff;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition: opacity .25s ease-out;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+.btn {
+  border: none;
+  border-radius: 3px;
+  position: relative;
+  font-weight: 400;
+  letter-spacing: 0;
+  will-change: box-shadow, transform;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  background: transparent;
+  width: 100%;
+  outline: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.custom-input-css .c-token {
+  background: white !important;
+  color: grey !important;
+  font-weight: 600;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.custom-input-css .c-btn {
+  background: transparent !important;
+}
+
+.chartDiv {
+  height: calc(100% - 150px);
+  position: relative;
+}
+
+.charts-row {
+  height: calc(100% - 150px);
+}
+
+.charts-col {
+  height: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .charts-row {
+    height: 200%;
+  }
+
+  .charts-col {
+    height: 50%;
+  }
+ 
+}
